@@ -1,10 +1,18 @@
 package dsaprj.mca.dsa;
 
-public class Main {
+public class Main extends Person {
+
+	@Override
+	void f1() {
+		// TODO Auto-generated method stub
+//		super.f1();
+		System.out.println("this is child class");
+	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Main p=new Main();
+		p.f1();
+		
 	}
 
 }
